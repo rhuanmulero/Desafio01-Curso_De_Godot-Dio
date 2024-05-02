@@ -1,0 +1,71 @@
+body {
+    background-color: #2F2422;
+    color: white;
+    font-family: Holtwood One SC;
+    align-items: center; 
+    height: 100vh;
+    margin: 4vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+
+width: 50vmin;
+height: auto;
+border-radius: 2vmin;
+transition: 1s;
+margin: 2.5vmin;
+}
+
+img:hover {
+
+transform: scale(1.2);
+
+
+}
+
+input {
+
+border-radius: 2vmin;
+padding: 2vmin;
+font-family: Holtwood One SC;
+
+}
+
+a, button {
+    color: white;
+    background-color: #EB1010;
+    border-radius: 2vmin;
+    padding: 1.5vmin;
+    border: none;
+    font-family: Holtwood One SC;
+    transition: 0.3s;
+    margin-bottom: 4vmin;
+    text-decoration: none;    
+}
+
+a:hover {
+    background-color: #8b0808;
+}
+
+span {
+    color: #F8B406;
+}
+
+h1 {
+    font-size: 8vmin;
+    margin-bottom: 0.5vmin;
+}
+
+
+section {
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid #F8B406;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #F8B406;
+}
+

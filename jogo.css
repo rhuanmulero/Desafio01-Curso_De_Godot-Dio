@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#avatar {
+    background-color: #F8B406;
+    padding: 2vmin;
+    border-radius: 1vmin;
+    text-align: center; 
+    margin-top: 5vmin;
+}
+
+#notificacoes {
+    background-color: #F8B406;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
+}
+
+p {
+
+    padding: 1vmin;
+    font-size: 3vmin;
+
+}
+
+#inventario {
+    background-color: #F8B406;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    margin-top: 5vmin;
+    width: 40vmin;
+}
+
+img {
+
+width: 40vmin;
+height: auto;
+justify-content: center;
+margin-bottom: 5vmin;
+}
+
+button {
+    color: white;
+    background-color: #F8B406;
+    border-radius: 2vmin;
+    padding: 1.5vmin;
+    border: none;
+    font-family: Holtwood One SC;
+    transition: 0.3s;
+    margin-top: 3vmin;
+    text-decoration: none;
+    margin-bottom: -3vmin;
+}
+
+button:hover {
+    background-color: #8b0808;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.item {
+    color: white;
+    font-family: Holtwood One SC;
+    background-color: #EB1010;
+    border-radius: 5px;
+    padding: 6vmin;
+    margin: 0 5px;
+}
+
+#barraVida {
+    appearance: none;
+    width: 100%; 
+}
+
+#barraVida::-webkit-progress-value {
+    background-color: red; 
+    border-radius: 5vmin;
+}
+
+#barraVida::-webkit-progress-bar {
+    background-color: white; 
+    border-radius: 5vmin;
+}
+
+#barraRank {
+    appearance: none;
+    width: 100%;
+}
+
+#barraRank::-webkit-progress-value {
+    background-color: white;
+    border-radius: 5vmin;
+}
+
+#barraRank::-webkit-progress-bar {
+    background-color: green;
+    border-radius: 5vmin;
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #inventario, #notificacoes, #avatar {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 20px; 
+    }
+
+    #inventario, #notificacoes, #avatar {
+        border-radius: 10px;
+        padding: 5vmin;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center; 
+    }
+    #avatar img {
+        display: block;
+        margin: 0 auto; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #inventario, #notificacoes, #avatar {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 20px; 
+    }
+
+    #inventario, #notificacoes, #avatar {
+        border-radius: 10px;
+        padding: 5vmin;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center; 
+    }
+    #avatar img {
+        display: block;
+        margin: 0 auto; 
+    }
+}

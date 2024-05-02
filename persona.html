@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - Curso de Godot da Dio</title>
+
+    <link rel="stylesheet" href="persona.css
+    ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<center><h1>Quem É <span>Você?</span></h1></center>
+
+<section class="persona">
+
+    <div id="sexo">
+
+    <h2>Escolha Seu <span>Gênero</span></h2>   
+        <img src="man.jpg" id="homem" onclick="selecionarSexo('homem')">
+        <img src="woman.jpg" id="mulher" onclick="selecionarSexo('mulher')">
+
+        <p id="escolhaDoSexo">Os Textos Ficarão Assim:</p>
+    </div>
+
+
+
+    <div id="nome">
+<h2>Como Você Gostaria de Ser Chamado?</h2>
+<input type="text" id="inputNome">
+<p id="escolhaDoNome">Os Textos Ficarão Assim: </p>
+    </div>
+
+    <div id="pontos">
+
+<a href="jogo.html" id="comecar" onclick="iniciarAventura()">Começar Aventura</a>
+
+
+</section>
+
+<footer></footer>
+<script src="main.js"></script>
+</body>
+</html>

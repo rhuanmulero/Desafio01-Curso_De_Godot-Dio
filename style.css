@@ -1,0 +1,45 @@
+body {
+    background-color: #2F2422;
+    color: white;
+    font-family: Holtwood One SC;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0; 
+}
+
+span {
+    color: #F8B406;
+}
+
+a {
+    color: white;
+    background-color: #EB1010;
+    border-radius: 2vmin;
+    padding: 1.5vmin;
+    border: none;
+    font-family: Holtwood One SC;
+    transition: 0.3s;
+    margin: vmin;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: #8b0808;
+}
+
+h1 {
+    font-size: 10vmin;
+    margin-bottom: 0.5vmin;
+}
+
+h3 {
+    font-size: 2vmin;
+    margin-top: 1.5vmin;
+}
+
+section {
+    text-align: center;
+}
